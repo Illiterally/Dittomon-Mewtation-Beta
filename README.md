@@ -28,7 +28,9 @@ Hello! Thanks for checking out **Dittomon: Mewtation** — a new take on the sol
 
 A lot of what made Pokémon feel exciting back in the day returns in this fangame. You are limited to **Dittomon ONLY**, but that does not mean you are limited to one strategy. You can transform your way to victory by encountering wild and rare Pokémon, learning what they can do, and targeting the right move, ability, form, or combination for the task at hand.
 
-If you're the kind of Pokémon Master that knows when unrandomized Pokémon learn moves, what moves they have, their abilities, and type advantages...you will thrive for it. You cannot catch Pokémon, but you still need to hunt them down. Wild encounters become scouting missions. Trainer battles become research. A rare Pokémon in the grass might not join your team, but it might give you the form, move, or ability that wins the next gym.
+If you're the kind of Pokémon Master that knows exactly when Pokémon learn moves, what moves they have, their abilities, and type advantages...you will thrive for it. Either way, this game will have you reaching for your IRL Pokdex. 
+
+You cannot catch Pokémon, but you still need to hunt them down. Wild encounters become scouting missions. Trainer battles become research. A rare Pokémon in the grass might not join your team, but it might give you the form, move, or ability that wins the next gym.
 
 How does it work? Dittomon is a special Pokémon that can **permanently Transform**, copy Abilities, and Sketch moves through an always-available custom menu called the **Pokémon Utility Menu**, or **PUM**. While the feature itself has more to come, in this incarnation Dittomon and the PUM are at the center of a familiar Pokémon adventure in vanilla FireRed Kanto.
 
