@@ -1,4 +1,4 @@
-# Dittomon: Mewtation
+# Dittomon: Mewtation (Beta 1.5ish)
 
 ## How to Patch
 
