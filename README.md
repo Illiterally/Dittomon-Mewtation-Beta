@@ -80,15 +80,15 @@ I generally do not use Repels, because I've noticed every time I am in the grass
 
 Lab fight is annoying due to a hiccup regarding when Transform becomes available--because it is immediate, in this build, player can get locked into a misleading trade if they're not careful. Goats confuse their way out, thieves struggle...you'll understand. 
 
-Be on the lookout for game freezes after several learned or acquired moves, especially around the eighth learned move. It should be fixed, but the game was stalling on the eighth learned move for a while. Save often. Save state is a savior.
+Be on the lookout for a game stall precisely at the eighth learned move. It should be fixed, but the game was stalling on the eighth learned move for a while. Save often either way. Save state is a player choice.
 
 Much of the text is still untouched/filler. More to come.
 
-QoL around the Old Man Poké Ball lesson and other nuisances is on the way.
+QoL improvements i.e. game restart, or the Old Man Poké Ball lesson, and other nuisances, are on the way.
 
-There is a secret way to buy healing items, by accident. If you find it, my rule has been: “Take as many as you legitimately think you could carry in a backpack,” but I am weird like that.
+There is an undisclosed way to buy healing items, by accident, and I just left it there. If you find it, my rule has been: “Take as many as you legitimately think you could carry in a backpack,” but I am weird like that.
 
-Otherwise, the sky is the limit, until something breaks. Champion has a very dangerous ace, and there are some unkind Pokémon at times. I think it makes it fun.
+Otherwise, the sky is the limit, until something breaks. Champion has a very dangerous ace, and there are some unkind Pokémon at times. I think it makes it fun. Let me know if it doesn't. 
 
 ## Patch Notes
 
@@ -97,6 +97,8 @@ Dittomon should be distributed as a patch only. Do not distribute ROM files.
 This is a noncommercial fan project.
 
 ## Credits
+
+This is an Illiterally Custom!
 
 Dittomon uses **Complete FireRed Upgrade** by **Skeli789 and contributors**.
 
