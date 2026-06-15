@@ -28,7 +28,7 @@ Hello! Thanks for checking out **Dittomon: Mewtation** — a new take on the sol
 
 A lot of what made Pokémon feel exciting back in the day returns in this fangame. You are limited to **Dittomon ONLY**, but that does not mean you are limited to one strategy. You can transform your way to victory by encountering wild and rare Pokémon, learning what they can do, and targeting the right move, ability, form, or combination for the task at hand.
 
-If you're the kind of Pokémon Master that knows exactly when Pokémon learn moves, what moves they have, their abilities, and type advantages...you will thrive for it. Either way, this game will have you reaching for your IRL Pokedex. 
+If you're the kind of Pokémon Master that knows exactly when Pokémon learn moves, what moves they have, their abilities, and type advantages...you will thrive for it. Either way, this game will have you reaching for your IRL Pokedex. Note that this is currently a CFRU  based Gen 1-3 faithful build, with 386 Pokemon, and associated moves/typings etc. Fairy is not a type, in this build, yet. 
 
 You cannot catch Pokémon, but you still need to hunt them down. Wild encounters become scouting missions. Trainer battles become research. A rare Pokémon in the grass might not join your team, but it might give you the form, move, or ability that wins the next gym.
 
