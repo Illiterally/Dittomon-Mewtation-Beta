@@ -1,118 +1,124 @@
-# Dittomon: Mewtation (Beta 1.5ish)
+# Dittomon: Mewtation Beta
+
+**Dittomon: Mewtation** is a FireRed solo-mon challenge built around one strange, evolving Dittomon.
+
+You cannot catch Pokémon. You cannot build a normal team. You win by scouting, transforming, copying, adapting, and learning what the world has to offer. Wild encounters become research. Trainer battles become information. A rare Pokémon in the grass might not join you, but it might give you exactly what you need.
+
+This is a **CFRU-based Gen 1–3 faithful build** with 386 Pokémon and classic FireRed-era typing. Fairy is not a type in this build.
 
 ## How to Patch
 
-You need a clean **Pokémon FireRed Version 1.0 USA/NA ROM** as the base.
+Dittomon is distributed as a **BPS patch only**. No ROM file is included.
 
-Use the common **Squirrels** dump:
+You need a clean, unmodified **Pokémon FireRed USA 1.0** ROM as the base.
 
-* File name often shown as: `Pokemon - Fire Red Version (U) (V1.0) [Squirrels].gba`
-* ROM code: `BPRE`
-* MD5: `e26ee0d44e809351c8ce2d73c7400cdd`
-* SHA1: `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`
+Commonly shown as:
+
+```text
+Pokemon - Fire Red Version (U) (V1.0) [Squirrels].gba
+ROM code: BPRE
+MD5:  e26ee0d44e809351c8ce2d73c7400cdd
+SHA1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc
+```
 
 Do **not** patch FireRed 1.1, LeafGreen, a randomized ROM, or an already-patched ROM.
 
 Recommended patching flow:
 
-1. Make a copy of your clean FireRed 1.0 USA ROM.
-2. Open your IPS patcher of choice, such as Lunar IPS, Floating IPS, or another Ironmon.gg-compatible patch tool.
-3. Select the Dittomon `.ips` patch.
-4. Select the clean FireRed 1.0 USA ROM when asked for the base ROM.
-5. Save the patched ROM with a new name, such as `Dittomon - Mewtation.gba`.
+1. Make a copy of your clean FireRed USA 1.0 ROM.
+2. Open a BPS-compatible patcher, such as **Floating IPS/Flips** or **RomPatcher JS**.
+3. Select the clean FireRed ROM as the source/input file.
+4. Select the Dittomon `.bps` patch.
+5. Save the patched output as a new `.gba` file.
 6. Load the patched ROM in mGBA or your preferred GBA emulator.
 
-Dittomon is distributed as a patch only. No ROM file is included.
+If your patcher reports a checksum mismatch, stop and use the correct FireRed USA 1.0 base.
 
-Hello! Thanks for checking out **Dittomon: Mewtation** — a new take on the solo-mon experience, with ergonomic difficulty at its core.
+## What Kind of Game Is This?
 
-A lot of what made Pokémon feel exciting back in the day returns in this fangame. You are limited to **Dittomon ONLY**, but that does not mean you are limited to one strategy. You can transform your way to victory by encountering wild and rare Pokémon, learning what they can do, and targeting the right move, ability, form, or combination for the task at hand.
+Dittomon keeps the familiar shape of FireRed Kanto, but changes the way you think about progress.
 
-If you're the kind of Pokémon Master that knows exactly when Pokémon learn moves, what moves they have, their abilities, and type advantages...you will thrive for it. Either way, this game will have you reaching for your IRL Pokedex. Note that this is currently a CFRU  based Gen 1-3 faithful build, with 386 Pokemon, and associated moves/typings etc. Fairy is not a type, in this build, yet. 
+Instead of catching Pokémon, you hunt for options. Instead of building a team, you build one Dittomon’s toolkit. The game is about reading the world, finding useful forms, learning from opponents, and solving battles with whatever you have managed to discover.
 
-You cannot catch Pokémon, but you still need to hunt them down. Wild encounters become scouting missions. Trainer battles become research. A rare Pokémon in the grass might not join your team, but it might give you the form, move, or ability that wins the next gym.
-
-How does it work? Dittomon is a special Pokémon that can **permanently Transform**, copy Abilities, and Sketch moves through an always-available custom menu called the **Pokémon Utility Menu**, or **PUM**. While the feature itself has more to come, in this incarnation Dittomon and the PUM are at the center of a familiar Pokémon adventure in vanilla FireRed Kanto.
-
-But it is not exactly the same.
-
-Route trainers mostly keep their vanilla identity, leaving the natural rhythm of FireRed intact, but many have an added randomized Pokémon on their standard team, for both variety and difficulty. Wild encounters are also scaled and randomized in new ways. Every badge changes the range and BST of Pokémon that can appear on every route, which means old areas can become worth checking out again after progress.
-
-Gym Leaders were shown a little love, but they have a narrow difficulty overhaul coming. It's close, but not dialed as tightly as I want, yet.
-
-So, will the game become more challenging in the future? Possibly. I have also proposed having Dittomon reset to its base form, losing all acquired Mewtations upon player KO. That is not the current rule unless stated in the patch notes, but it is part of the design direction being explored.
-
-A post-gym, story driven **Item Cache** system is also in the works. Currently, the game is mostly limited to vanilla item pickups.
-
-What are the rules? Win. My take on game design in this instance is that anything that counts as a rule should be baked into the game. In the case of Dittomon, if you can do it, it means you are allowed to. If you want to run it like Kaizo, you can. You may need to reset sometimes, but I think the core challenge is growing your way to victory, not getting wiped out for an ambitious play. 
-
-I have turned off shops. I have made sure you cannot acquire a second Pokémon. I have not set a level cap or a rule on EXP gain — that is up to you. I figure low score counts. If you can beat Champion at level 95, that is a W. If you can beat it at level 57, that is a flex.
-
-Make sure to check back into Oak’s Lab after every gym fight to unlock your stat Mewts and manage your PUM. Every badge unlocks a new stat Mewt, in addition to impacting the range and BST of wild Pokémon on every route. Check back to familiar places for new encounters after badge gain.
-
-Again, you cannot catch Pokémon, but you will struggle to win if you do not hunt down your options. Finding the right moves, forms, and abilities for the task at hand can be tough. This may have you feeling like a real Pokémon Trainer again as you pilfer grasses for rare spawns with crazier BST than where you are at in the game.
-
-I generally do not use Repels, because I've noticed every time I am in the grass, I feel like I may see something new, as long as I have a fresh badge.
+If you know when Pokémon learn moves, what abilities they have, and how matchups work, you will thrive. If you do not, this game may have you reaching for your IRL Pokédex again.
 
 ## Current Features
 
 * Dittomon-only solo-mon play
-* Permanent Transform
+* Permanent Transform-centered progression
 * Ability copying
 * Sketch-style move acquisition
-* Always-available PUM
-* Badge-based stat Mewt unlocks
-* Badge-scaled wild encounters
-* Expanded route trainer teams
+* The Pokémon Utility Menu, or PUM
+* Badge-gated Mewtation growth
+* Lab support for managing Dittomon
+* Badge-scaled wild encounter variety
+* Route-preserving wild pools with anomaly encounters
+* Expanded and rebalanced trainer teams
 * Harder boss-team design
-* Vanilla FireRed Kanto structure with Dittomon-centered progression
-* FLY is perma-available from Pokemon Summary menu, pending Surge's badge, but land travel is recommended
+* Field utility changes built around Dittomon
+* Fly available from the summary menu after the proper badge
+* Catching and gift Pokémon blocked to preserve the solo-mon run
+* Safari Zone encounters converted into normal battles
+* Reduced item economy and disabled major shops
+* Custom Dittomon title screen
+* Updated Dittomon/Mewtation-themed story text in key places
+* Optional Hardcore-style blackout consequences
 
-## Planned / In-Progress Features
+The exact systems are meant to be discovered through play. If the game lets you do it, it is probably fair game.
 
-* Scorecard Wipe on KO
-* Mewt HP function integration
-* Updated story script
-* Porygon Item Cache events
-* Silph Co. Porygon Key Card event
-* Old Man Poké Ball lesson cleanup
+## Rules
+
+Win.
+
+My take on this project is that the real rules should be baked into the game. If Dittomon can do it, you are allowed to do it.
+
+There is no level cap. There is no formal EXP rule. If you beat Champion at level 95, that is a W. If you beat Champion at level 57, that is a flex.
+
+You cannot catch Pokémon, but you will probably struggle if you do not hunt them. Revisit old areas after badges. Check back into Oak’s Lab. Pay attention to strange encounters. There is usually something new to learn.
+
+## Known Notes
+
+This is still a beta.
+
+Some text is unfinished or placeholder. Some quality-of-life cleanup is still planned. Save often, especially while experimenting with new forms, moves, and menu behavior.
+
+There may be odd edges, hidden conveniences, and a few deliberately unkind surprises. That is part of the fun, until something breaks. If something does break, please report it.
+
+## Planned / In Progress
+
 * More boss puzzle tuning
-* Transform unlock timing, and paced PUM behavior from vanilla to Priority PUM to Off Grid PUM (doesn't consume turn), which is a major feature that will warp gameplay. I've been hesitant to launch without it, but it's playable.
+* Additional story cleanup
+* Expanded item-cache events
+* More PUM pacing and polish
+* Further quality-of-life improvements
+* Additional balance passes after player feedback
 
-## Known Issues
+## Distribution
 
-Lab fight is annoying due to a hiccup regarding when Transform becomes available--because it is immediate, in this build, player can get locked into a misleading trade if they're not careful. Goats confuse their way out, thieves struggle...you'll understand. 
+Dittomon should be distributed as a patch only.
 
-Be on the lookout for a game stall precisely at the eighth learned move. It should be fixed, but the game was stalling on the eighth learned move for a while. Save often either way. Save state is a player choice.
-
-Much of the text is still untouched/filler. More to come.
-
-QoL improvements i.e. game restart, or the Old Man Poké Ball lesson, and other nuisances, are on the way.
-
-There is an undisclosed way to buy healing items, by accident, and I just left it there. If you find it, my rule has been: “Take as many as you legitimately think you could carry in a backpack,” but I am weird like that.
-
-Otherwise, the sky is the limit, until something breaks. Champion has a very dangerous ace, and there are some unkind Pokémon at times. I think it makes it fun. Let me know if it doesn't. 
-
-## Patch Notes
-
-Dittomon should be distributed as a patch only. Do not distribute ROM files.
+Do not distribute ROM files.
 
 This is a noncommercial fan project.
 
 ## Credits
 
-This is an Illiterally Custom!
+This is an **Illiterally Custom!**
 
-Dittomon uses **Complete FireRed Upgrade** by **Skeli789 and contributors**.
+Dittomon uses **Complete FireRed Upgrade** by Skeli789 and contributors.
 
-Additional planning and implementation support came from **ChatGPT** and **Codex**.
+Additional planning and implementation support came from ChatGPT and Codex.
 
-Pokémon, FireRed, and all original Pokémon assets belong to **Nintendo, Game Freak, and Creatures**.
+Pokémon, FireRed, and all original Pokémon assets belong to Nintendo, Game Freak, and Creatures.
 
-It would be a major party-foul to distribute my patch, stream my game for profit, or plunder my concept without at least having a conversation first. Contact Info Below:
+It would be a major party foul to redistribute the patch, stream the game for profit, or plunder the concept without at least having a conversation first.
 
-Inquiries @ IlliterallyIlly@gmail.com 
+## Contact
 
-Discord: Illiteralley https://discord.gg/4VD8NHH6 
+Inquiries: [IlliterallyIlly@gmail.com](mailto:IlliterallyIlly@gmail.com)
 
-Patreon: patreon.com/illiterally
+Discord: Illiteralley
+https://discord.gg/4VD8NHH6
+
+Patreon:
+patreon.com/illiterally
