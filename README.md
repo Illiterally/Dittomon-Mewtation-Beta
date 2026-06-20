@@ -1,6 +1,6 @@
 # Dittomon: Mewtation Beta
 
-**Dittomon: Mewtation** is a FireRed solo-mon challenge built around one strange, evolving Dittomon.
+**Dittomon: Mewtation** is a FireRed solo-mon challenge built around one odd Ditto.
 
 You cannot catch Pokémon. You cannot build a normal team. You win by scouting, transforming, copying, adapting, and learning what the world has to offer. Wild encounters become research. Trainer battles become information. A rare Pokémon in the grass might not join you, but it might give you exactly what you need.
 
@@ -38,7 +38,7 @@ If your patcher reports a checksum mismatch, stop and use the correct FireRed US
 
 Dittomon keeps the familiar shape of FireRed Kanto, but changes the way you think about progress.
 
-Instead of catching Pokémon, you hunt for options. Instead of building a team, you build one Dittomon’s toolkit. The game is about reading the world, finding useful forms, learning from opponents, and solving battles with whatever you have managed to discover.
+Instead of catching Pokémon, you hunt for options. Instead of building a team, you build one Ditto’s toolkit. The game is about reading the world, finding useful forms, learning from opponents, and solving battles with whatever you have managed to discover.
 
 If you know when Pokémon learn moves, what abilities they have, and how matchups work, you will thrive. If you do not, this game may have you reaching for your IRL Pokédex again.
 
@@ -74,15 +74,15 @@ My take on this project is that the real rules should be baked into the game. If
 
 There is no level cap. There is no formal EXP rule. If you beat Champion at level 95, that is a W. If you beat Champion at level 57, that is a flex.
 
-You cannot catch Pokémon, but you will probably struggle if you do not hunt them. Revisit old areas after badges. Check back into Oak’s Lab. Pay attention to strange encounters. There is usually something new to learn.
+You cannot catch Pokémon, but you will probably struggle if you don't spend time looking for the best ones. Revisit old areas after badges. Check back into Oak’s Lab. Pay attention to strange encounters. There is usually something new to learn.
 
 ## Known Notes
 
 This is still a beta.
 
-Some text is unfinished or placeholder. Some quality-of-life cleanup is still planned. Save often, especially while experimenting with new forms, moves, and menu behavior.
+Much of the text is unfinished or placeholder. Some quality-of-life cleanup is still planned. Not as critical to save often as before, tests are consistently stable. 
 
-There may be odd edges, hidden conveniences, and a few deliberately unkind surprises. That is part of the fun, until something breaks. If something does break, please report it.
+There may be odd edges, hidden conveniences, and a few deliberately unkind surprises. That is part of the fun, until something breaks. If something does break, please let me know so I can get after it.
 
 ## Planned / In Progress
 
