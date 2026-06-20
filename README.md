@@ -36,7 +36,7 @@ If your patcher reports a checksum mismatch, stop and use the correct FireRed US
 
 ## What Kind of Game Is This?
 
-Dittomon keeps the familiar shape of FireRed Kanto, but changes the way you think about progress.
+Dittomon keeps the familiar shape of FireRed Kanto, but changes the way you think about progress, (and in Hardcore mode, loss...) Check with the girl NPC in Pallet near Mom's House to activate it. Its closer to the intended gameplay. 
 
 Instead of catching Pokémon, you hunt for options. Instead of building a team, you build one Ditto’s toolkit. The game is about reading the world, finding useful forms, learning from opponents, and solving battles with whatever you have managed to discover.
 
