@@ -4,7 +4,7 @@
 
 You cannot catch Pokémon. You cannot build a normal team. You win by scouting, transforming, copying, adapting, and learning what the world has to offer. Wild encounters become research. Trainer battles become information. A rare Pokémon in the grass might not join you, but it might give you exactly what you need.
 
-This is a **CFRU-based Gen 1–3 faithful build** with 386 Pokémon and classic FireRed-era typing. Fairy is not a type in this build.
+This is a **CFRU-based Gen 1–3 faithful build** with 386 Pokémon and classic FireRed-era typing.
 
 ## How to Patch
 
