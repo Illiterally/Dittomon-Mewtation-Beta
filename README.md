@@ -6,6 +6,12 @@ You do not catch a normal team. You do not build six Pokemon and play FireRed st
 
 This is a **BPS patch only**. No ROM file is included.
 
+## Play Here
+
+Download **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`** from this repository.
+
+That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
+
 ## Beta Notice
 
 To the Pokemon community at large: this is a public beta, not a final release.
