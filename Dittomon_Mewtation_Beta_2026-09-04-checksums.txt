@@ -1,0 +1,28 @@
+Dittomon: Mewtation Beta Release Verification
+Generated: 2026-09-04
+Patch file: Dittomon_Mewtation_Beta_2026-09-04.bps
+Patch format: BPS
+
+Required base ROM (Pokemon FireRed USA 1.0):
+ROM code: BPRE
+MD5:    E26EE0D44E809351C8CE2D73C7400CDD
+SHA1:   41CB23D8DCCC8EBD7C649CD8FBB58EEACE6E2FDC
+
+Tested patched ROM (not distributed):
+MD5:    B392F8A656DB6AA661315F920DB1ADC9
+SHA1:   DEBB1870D3B8871C46CF34CA478F159776E13E6D
+SHA256: BC2EB14A78FC8B43BB86191835406C9A38F969699A46356A0D8A4A3C2836F61C
+
+Distributed BPS patch:
+MD5:    A85C4F74AD3CD2D5C771D31BEDBA4827
+SHA1:   B89B4DEF744F0640E0A92197354D55A26C0BCCBF
+SHA256: 19C7CB84473CE7638D7FD3735645D70B85BDC43D6253A7F43557D4EA572A25F9
+
+Patch tool:
+Path:   C:\Users\mattp\OneDrive\Documents\DittomonGBA\game\tools\flips\flips.exe
+SHA256: 1D0C2FA27EBA12965276A63306CBA5CFE57102930DD83D10ECBC6956EDF35DA6
+Command: flips.exe --create --bps BPRE0.gba test.gba Dittomon_Mewtation_Beta_2026-09-04.bps
+Verify:  flips.exe --apply Dittomon_Mewtation_Beta_2026-09-04.bps BPRE0.gba roundtrip.gba
+
+Verification:
+The patch was applied back onto the clean base ROM and reproduced the exact tested patched-ROM SHA-256. No ROM file is included in the deliverables.

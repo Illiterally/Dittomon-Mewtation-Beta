@@ -1,16 +1,24 @@
 # Dittomon: Mewtation Beta
 
-**Dittomon: Mewtation** is a FireRed solo-mon challenge built around one odd Ditto.
+**Dittomon: Mewtation** is a work-in-progress beta Pokemon FireRed hack about one unstable Ditto and the strange systems growing around it.
 
-You cannot catch Pokémon. You cannot build a normal team. You win by scouting, transforming, copying, adapting, and learning what the world has to offer. Wild encounters become research. Trainer battles become information. A rare Pokémon in the grass might not join you, but it might give you exactly what you need.
+You do not catch a normal team. You do not build six Pokemon and play FireRed straight. You travel through Kanto with one Dittomon, scout what the world has to offer, copy useful forms, borrow moves, manipulate abilities, and turn familiar Pokemon knowledge into a survival tool.
 
-This is a **CFRU-based Gen 1–3 faithful build** with 386 Pokémon and classic FireRed-era typing.
+This is a **BPS patch only**. No ROM file is included.
 
-## How to Patch
+## Beta Notice
 
-Dittomon is distributed as a **BPS patch only**. No ROM file is included.
+To the Pokemon community at large: this is a public beta, not a final release.
 
-You need a clean, unmodified **Pokémon FireRed USA 1.0** ROM as the base.
+The core Dittomon loop is playable, but balance, text, trainer design, progression hooks, quality-of-life details, and custom puzzle fights are still actively being revised. Some edges will be rough. Some NPCs are still being rewritten. Some fights are experiments. That is the point of this beta: to let players test the idea while it is still alive enough to change.
+
+Feedback is welcome, especially crashes, softlocks, confusing progression, device-specific problems, and battles that feel broken rather than merely mean.
+
+## How To Patch
+
+Dittomon is distributed as a **BPS patch only**. No ROM file is included and no ROM file should be distributed.
+
+You need a clean, unmodified **Pokemon FireRed USA 1.0** ROM as the base.
 
 Commonly shown as:
 
@@ -34,91 +42,115 @@ Recommended patching flow:
 
 If your patcher reports a checksum mismatch, stop and use the correct FireRed USA 1.0 base.
 
-## What Kind of Game Is This?
+## What Kind Of Game Is This?
 
-Dittomon keeps the familiar shape of FireRed Kanto, but changes the way you think about progress, (and in Hardcore mode, loss...) Check with the girl NPC in Pallet near Mom's House to activate it. Its closer to the intended gameplay. 
+Dittomon keeps the familiar shape of FireRed Kanto, but changes what progress means.
 
-Instead of catching Pokémon, you hunt for options. Instead of building a team, you build one Ditto’s toolkit. The game is about reading the world, finding useful forms, learning from opponents, and solving battles with whatever you have managed to discover.
+Instead of catching Pokemon, you hunt for options. A wild encounter might not join you, but it might show you a form, ability, move, or matchup that matters later. Trainer battles are not only obstacles; they are information. The player is meant to learn by testing, losing, adapting, and coming back smarter.
 
-If you know when Pokémon learn moves, what abilities they have, and how matchups work, you will thrive. If you do not, this game may have you reaching for your IRL Pokédex again.
+The project is moving toward authored Dittomon puzzle battles: fights where the enemy abuses one mechanical rule until Dittomon learns how to answer it.
+
+If you know Pokemon mechanics, abilities, learnsets, and weird matchup interactions, that knowledge should feel useful here.
 
 ## Current Features
 
-* Dittomon-only solo-mon play
-* Permanent Transform-centered progression
-* Ability copying
+* Dittomon-only solo-mon structure
+* Catching and most gift-Pokemon acquisition blocked to preserve the one-mon run
+* The Pokemon Utility Menu, or PUM
+* Transform-centered progression
 * Sketch-style move acquisition
-* The Pokémon Utility Menu, or PUM
-* Badge-gated Mewtation growth
-* Lab support for managing Dittomon
+* Ability copying through Mewt Ability
+* Mewt stat options and Lab support tools
+* Dittomon scorecard/memory systems
+* Early custom Dittomon tutorial battles and progression gates
+* Reworked old-man catching tutorial
+* Custom Pallet, Viridian, Brock, and early Kanto text pass work
+* Optional Hardcore Mode with harsher KO consequences
+* PokeRoll/randomizer support access through early-game NPCs
 * Badge-scaled wild encounter variety
 * Route-preserving wild pools with anomaly encounters
 * Expanded and rebalanced trainer teams
-* Harder boss-team design
+* Early puzzle-trainer framework
+* Reduced item economy and altered shop/item access
+* Safari Zone encounters converted into normal battles
 * Field utility changes built around Dittomon
 * Fly available from the summary menu after the proper badge
-* Catching and gift Pokémon blocked to preserve the solo-mon run
-* Safari Zone encounters converted into normal battles
-* Reduced item economy and disabled major shops
-* Custom Dittomon title screen
-* Updated Dittomon/Mewtation-themed story text in key places
-* Optional Hardcore-style blackout consequences
+* Custom Dittomon title screen and intro
+* Mewtation-themed story and NPC text in key places
 
 The exact systems are meant to be discovered through play. If the game lets you do it, it is probably fair game.
 
 ## Rules
 
-Win.
+Win with Dittomon.
 
-My take on this project is that the real rules should be baked into the game. If Dittomon can do it, you are allowed to do it.
+That is the real rule. The hack is designed to bake its restrictions into the game itself. If Dittomon can do something, you are allowed to do it.
 
-There is no level cap. There is no formal EXP rule. If you beat Champion at level 95, that is a W. If you beat Champion at level 57, that is a flex.
+There is no required external ruleset, no honor-code catch ban, and no need to pretend the game is vanilla FireRed. Scout forms. Revisit areas. Talk to people. Check Oak's Lab. Try strange ideas. The game is about finding what Dittomon can become.
 
-You cannot catch Pokémon, but you will probably struggle if you don't spend time looking for the best ones. Revisit old areas after badges. Check back into Oak’s Lab. Pay attention to strange encounters. There is usually something new to learn.
+## Hardcore Mode
 
-## Known Notes
+Hardcore Mode is available through an early Pallet Town support NPC.
+
+It is closer to the intended high-pressure version of the game: blackouts are harsher, Dittomon recovery matters more, and the run leans harder into adaptation instead of comfort. New players may want to try normal mode first, but Hardcore Mode is there if you want the sharper loop.
+
+## Known Beta Notes
 
 This is still a beta.
 
-Much of the text is unfinished or placeholder. Some quality-of-life cleanup is still planned. Not as critical to save often as before, tests are consistently stable. 
+Some text is still being rewritten. Some vanilla NPCs remain untouched. Some custom fights are only the beginning of a larger puzzle-trainer structure. Balance will keep moving as players find broken strategies, dead ends, and unexpectedly perfect nonsense.
 
-There may be odd edges, hidden conveniences, and a few deliberately unkind surprises. That is part of the fun, until something breaks. If something does break, please let me know so I can get after it.
+Please save normally. If you find a crash or softlock, report:
 
-## Planned / In Progress
+* emulator/device
+* build date or patch filename
+* where it happened
+* what Dittomon was transformed into, if relevant
+* whether Hardcore Mode was on
+* what happened immediately before the issue
 
-* More boss puzzle tuning
-* Additional story cleanup
-* Expanded item-cache events
-* More PUM pacing and polish
-* Further quality-of-life improvements
-* Additional balance passes after player feedback
+mGBA is the primary desktop recommendation. Handheld/device testing is also valuable, especially for Anbernic/ArkOS-style setups.
+
+## Planned Direction
+
+Future builds are aimed at making Dittomon feel less like a ruleset on top of FireRed and more like its own authored game.
+
+Planned work includes:
+
+* more custom puzzle trainers
+* more Mewtation unlock fights
+* more complete NPC writing passes
+* stronger boss identity
+* cleaner optional Hardcore Mode pacing
+* additional route/dungeon clue design
+* better beta documentation as systems settle
 
 ## Distribution
 
-Dittomon should be distributed as a patch only.
+Distribute the BPS patch and documentation only.
 
 Do not distribute ROM files.
+
+Do not sell this project or place it behind paid access.
 
 This is a noncommercial fan project.
 
 ## Credits
 
-This is an **Illiterally Custom!**
+Dittomon: Mewtation is an **Illiterally Custom!**
+
+Concept, design, writing, and direction by **Illy / Illiterally**.
 
 Dittomon uses **Complete FireRed Upgrade** by Skeli789 and contributors.
 
 Additional planning and implementation support came from ChatGPT and Codex.
 
-Pokémon, FireRed, and all original Pokémon assets belong to Nintendo, Game Freak, and Creatures.
-
-It would be a major party foul to redistribute the patch, stream the game for profit, or plunder the concept without at least having a conversation first.
+Pokemon, FireRed, and all original Pokemon assets belong to Nintendo, Game Freak, and Creatures.
 
 ## Contact
 
-Inquiries: [IlliterallyIlly@gmail.com](mailto:IlliterallyIlly@gmail.com)
+Email: [IlliterallyIlly@gmail.com](mailto:IlliterallyIlly@gmail.com)
 
 Discord: Illiteralley
-https://discord.gg/4VD8NHH6
 
-Patreon:
-patreon.com/illiterally
+Discord invite: <https://discord.gg/4VD8NHH6>
