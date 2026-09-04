@@ -14,9 +14,19 @@ This is a **BPS patch only**. No ROM file is included.
 
 Download **Public Beta 1** from the GitHub Releases page:
 
-**[Dittomon: Mewtation - Public Beta 1](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1)**
+**[Dittomon: Mewtation - Latest Release](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/latest)**
 
 The main download is **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`**. That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
+
+## Screenshots
+
+| Title Screen | Oak's Intro | Choose Dittomon |
+| --- | --- | --- |
+| ![Dittomon title screen](assets/screenshots/01-title-screen.png) | ![Oak introduces the world](assets/screenshots/02-oak-intro.png) | ![Choosing Dittomon in Oak's Lab](assets/screenshots/03-choose-ditto.png) |
+| Find The PUM | Hardcore Mode | Lab Support |
+| ![The PUM tutorial in battle](assets/screenshots/04-find-the-pum.png) | ![Hardcore Mode toggle](assets/screenshots/05-hardcore-mode.png) | ![Oak's Aide tuning Dittomon's PUM](assets/screenshots/06-oak-aide-pum.png) |
+| Copy New Moves | Puzzle Pressure | Mewtation In Practice |
+| ![Dittomon making room for a copied move](assets/screenshots/07-copy-new-moves.png) | ![Miltank punishing mistakes with Rollout](assets/screenshots/08-puzzle-pressure.png) | ![Combusken facing Miltank's Rollout](assets/screenshots/09-combusken-miltank.png) |
 
 ## Beta Notice
 
