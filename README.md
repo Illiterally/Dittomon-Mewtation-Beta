@@ -1,5 +1,9 @@
 # Dittomon: Mewtation Beta
 
+![Dittomon: Mewtation title screen](assets/dittomon-title-screen.png)
+
+**One Pokemon. Every Pokemon is a possibility.**
+
 **Dittomon: Mewtation** is a work-in-progress beta Pokemon FireRed hack about one unstable Ditto and the strange systems growing around it.
 
 You do not catch a normal team. You do not build six Pokemon and play FireRed straight. You travel through Kanto with one Dittomon, scout what the world has to offer, copy useful forms, borrow moves, manipulate abilities, and turn familiar Pokemon knowledge into a survival tool.
