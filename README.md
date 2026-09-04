@@ -12,9 +12,11 @@ This is a **BPS patch only**. No ROM file is included.
 
 ## Play Here
 
-Download **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`** from this repository.
+Download **Public Beta 1** from the GitHub Releases page:
 
-That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
+**[Dittomon: Mewtation - Public Beta 1](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1)**
+
+The main download is **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`**. That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
 
 ## Beta Notice
 
