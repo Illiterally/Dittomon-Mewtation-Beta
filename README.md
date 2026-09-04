@@ -12,7 +12,7 @@ This is a **BPS patch only**. No ROM file is included.
 
 ## Play Here
 
-Download **Public Beta 1** from the GitHub Releases page:
+Download the latest **Public Beta** build from the GitHub Releases page:
 
 **[Dittomon: Mewtation - Latest Release](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/latest)**
 
