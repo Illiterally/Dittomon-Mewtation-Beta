@@ -1,29 +1,18 @@
-Dittomon: Mewtation Beta Release Verification
-Generated: 2026-09-04
-Patch file: Dittomon_Mewtation_Beta_2026-09-04.bps
-Patch format: BPS
-Release note: Oak intro beta notice shortened after Public Beta 1 packaging.
+Dittomon: Mewtation Public Beta 1 - September 4 build with October 5, 2026 warp hotfix
 
-Required base ROM (Pokemon FireRed USA 1.0):
-ROM code: BPRE
-MD5:    E26EE0D44E809351C8CE2D73C7400CDD
-SHA1:   41CB23D8DCCC8EBD7C649CD8FBB58EEACE6E2FDC
+Required clean base for the main BPS: Pokemon FireRed USA 1.0 (BPRE)
+Base MD5: e26ee0d44e809351c8ce2d73c7400cdd
+Base SHA1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc
+Base SHA256: 3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac
 
-Tested patched ROM (not distributed):
-MD5:    798C5EAF07181234F069B1319FC20A61
-SHA1:   5764A82DDF4B5F6E269019F577BD902E0C7FB441
-SHA256: F0AB9556926736DC9FC18E77F42147B71A871F0617AF21D3193D1684E9CAB66F
+Corrected output ROM SHA256: 4943145aacfc79f2c9bf9120d1182296b5a36fbd44c06a563fdc818ff1791ed4
+Dittomon_Mewtation_Beta_2026-09-04.bps SHA256: 47e44fa971192e4efff4d44cd2d54705b8822c6b003443db59bc8624dac1eb63
 
-Distributed BPS patch:
-MD5:    7D374BAD65E05BB3B6DDDCA26ED8FE32
-SHA1:   9DF7ECB36316CCD47180B6437F7768B66AAA1815
-SHA256: 4917CDAF8270C32FA2CFB8F8A8589AE0D4C6D0AB8A3FD96E74675B3130FE61BC
+Separate existing-player upgrade patch input: September 4 Dittomon beta
+Original beta SHA256: f0ab9556926736dc9fc18e77f42147b71a871f0617af21d3193d1684e9cab66f
+Upgrade BPS SHA256: be22d289560d4237c2387a42d9f867c93d66b9bb8a74bf0c30a71629a509d850
 
-Patch tool:
-Path:   C:\Users\mattp\OneDrive\Documents\DittomonGBA\game\tools\flips\flips.exe
-SHA256: 1D0C2FA27EBA12965276A63306CBA5CFE57102930DD83D10ECBC6956EDF35DA6
-Command: flips.exe --create --bps BPRE0.gba test.gba Dittomon_Mewtation_Beta_2026-09-04.bps
-Verify:  flips.exe --apply Dittomon_Mewtation_Beta_2026-09-04.bps BPRE0.gba roundtrip.gba
-
-Verification:
-The patch was applied back onto the clean base ROM and reproduced the exact tested patched-ROM SHA-256. No ROM file is included in the deliverables.
+Exactly three warp-elevation bytes are restored. All other ROM bytes match the September 4 release.
+Save format and roster unchanged. All 1,294 warp records match the clean base.
+Both BPS routes were reapplied and verified against the same corrected ROM.
+Manual emulator traversal remains pending. No ROM or save is included.

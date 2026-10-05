@@ -18,6 +18,12 @@ Download the latest **Public Beta** build from the GitHub Releases page:
 
 The main download is **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`**. That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
 
+**Updated October 5, 2026: warp hotfix for the September 4 Gen 1–3 beta.** The main download now fixes blocked warps in Rocket Hideout B3F, Pokémon Tower 7F, and Six Island's Outcast Island. Exactly three map-data bytes changed; the Pokémon roster, gameplay systems, and save format are unchanged. This is not the expanded-roster rebuild.
+
+**Already playing the September 4 beta?** Download the [existing-player upgrade ZIP](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/public-beta-1-hotfix-1/UPGRADE_Dittomon_September4_WarpHotfix_2026-10-05.zip). Its patch applies to your existing September 4 Dittomon ROM, rather than clean FireRed. Back up your normal in-game save first; keep it with the corrected game and resume via Continue. Delta export/import instructions are included. Do not load an old emulator save state into the corrected ROM. Use only one patching route.
+
+Verification: both BPS patch routes reproduce the same corrected ROM, and all 1,294 warp entries match the clean base. Manual emulator traversal with an existing save is still pending.
+
 ## Screenshots
 
 | Title Screen | Oak's Intro | Choose Dittomon |
