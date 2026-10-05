@@ -6,7 +6,7 @@ Base SHA1: 41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc
 Base SHA256: 3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac
 
 Corrected output ROM SHA256: 4943145aacfc79f2c9bf9120d1182296b5a36fbd44c06a563fdc818ff1791ed4
-Dittomon_Mewtation_Beta_2026-09-04.bps SHA256: 47e44fa971192e4efff4d44cd2d54705b8822c6b003443db59bc8624dac1eb63
+Dittomon_Mewtation_Beta_2026-09-04_WarpHotfix_2026-10-05.bps SHA256: 47e44fa971192e4efff4d44cd2d54705b8822c6b003443db59bc8624dac1eb63
 
 Separate existing-player upgrade patch input: September 4 Dittomon beta
 Original beta SHA256: f0ab9556926736dc9fc18e77f42147b71a871f0617af21d3193d1684e9cab66f

@@ -16,7 +16,7 @@ Download the latest **Public Beta** build from the GitHub Releases page:
 
 **[Dittomon: Mewtation - Latest Release](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/latest)**
 
-The main download is **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04.zip`**. That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
+The main download is **`PLAY-HERE_Dittomon_Mewtation_Beta_2026-09-04_WarpHotfix_2026-10-05.zip`**. That ZIP contains the BPS patch, checksum log, and README. Apply the `.bps` patch inside it to a clean Pokemon FireRed USA 1.0 ROM. Do not use an already-patched ROM.
 
 **Updated October 5, 2026: warp hotfix for the September 4 Gen 1–3 beta.** The main download now fixes blocked warps in Rocket Hideout B3F, Pokémon Tower 7F, and Six Island's Outcast Island. Exactly three map-data bytes changed; the Pokémon roster, gameplay systems, and save format are unchanged. This is not the expanded-roster rebuild.
 
