@@ -1,0 +1,34 @@
+{
+  "release": {
+    "name": "Dittomon2.0",
+    "version": "2.0",
+    "channel": "public-beta",
+    "artifact_stem": "Dittomon2.0",
+    "tag": "v2.0.0",
+    "url": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.0"
+  },
+  "delivery": "2026-10-06",
+  "built_at": "2026-10-06T00:49:00.994207+00:00",
+  "base": {
+    "game": "Pokemon FireRed USA 1.0",
+    "sha256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
+    "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+    "crc32": "DD88761C"
+  },
+  "patch": {
+    "file": "Dittomon2.0.bps",
+    "bytes": 14073828,
+    "sha256": "16ed04b85843e941b75cb26f9ba7fb0814fd07e2c93af84fecf9f0ded16c3144"
+  },
+  "result": {
+    "file": "Dittomon2.0.gba",
+    "bytes": 33554432,
+    "sha256": "5666eea54fcd8f34b8fd4d8d5eff83f0fc2c5d5b9ae9d42fa0ccf219ad464f71"
+  },
+  "verification": {
+    "build_gates_passed": true,
+    "exact_bps_roundtrip": true,
+    "full_runtime_verified": false
+  },
+  "known_open_issue": "Intermittent Route 22 rival stall before dialogue; no fix claimed"
+}

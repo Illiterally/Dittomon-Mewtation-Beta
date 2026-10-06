@@ -1,0 +1,27 @@
+**Dittomon2.0 is here. One Pokémon. A lot more possibilities.**
+
+The solo-mon Kanto challenge now runs on an expanded FireRed foundation, with more forms to discover and more ways to make your Dittomon your own.
+
+### Included in 2.0
+
+- 1,025 National Dex entries and 1,455 battle forms, including 97 standalone Mega forms. What you encounter depends on the run's pools and progression.
+- PUM's persistent transformations, copied moves, ability changes, and Mewt stat customization.
+- Rare Mewtated Anomalies with distinctive Ditto-eye artwork and unusual combinations.
+- PokeRoll encounter variety, optional trainer randomization, and early run setup.
+- Hardcore as the intended default, with a more forgiving optional mode.
+- Faster PUM actions, a learned-move Relearner, and party Summary renaming.
+- Refreshed opening scenes, selected classic and modern battle art, and the lilac brick interface.
+
+### Download and start
+
+Get **Dittomon2.0-2026-10-06.zip** below. It contains the patch, instructions, credits, and checksums. Apply `Dittomon2.0.bps` to your own clean **Pokémon FireRed USA 1.0** ROM using a BPS patcher. No ROM is included.
+
+**September-beta players need a new save.** Keep your old ROM/save together; [that release remains available](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1-hotfix-1). Current expanded-rebuild battery saves are compatible; back them up and use Continue rather than an older emulator save state.
+
+### Beta note
+
+One intermittent stall before an early rival conversation is under investigation. Restarting mGBA and loading the ordinary save allowed that encounter to proceed in the reported case. Save normally; if it recurs, capture a save state while frozen and report the build, emulator, and preceding steps. This release does not claim a fix for that issue.
+
+The patch was verified to reproduce the built ROM exactly. Dittomon2.0 remains a public beta, and feedback is welcome on [Discord](https://discord.gg/gNcZYYcfW).
+
+Created and directed by **Illy / Illiterally**. Community code and art contributors are credited in the download. [Project page](https://illiterally.wtf/projects/dittomon).

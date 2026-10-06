@@ -1,0 +1,38 @@
+Pokemon Essentials 21.1: embedded credit excerpt from Scene_Credits#get_text.
+Resource-pack attribution; not every optional component is installed in Dittomon.
+
+    # Add Essentials credits
+    ret.push("", "", "")
+    ret.push(_INTL("\"PokÃ©mon Essentials\" was created by:"))
+    add_names_to_credits(ret, [
+      "Poccil (Peter O.)",
+      "Maruno",
+      _INTL("Inspired by work by Flameguru")
+    ])
+    ret.push(_INTL("With contributions from:"))
+    add_names_to_credits(ret, [
+      "AvatarMonkeyKirby", "Boushy", "Brother1440", "FL.", "Genzai Kawakami",
+      "Golisopod User", "help-14", "IceGod64", "Jacob O. Wobbrock", "KitsuneKouta",
+      "Lisa Anthony", "Luka S.J.", "Marin", "MiDas Mike", "Near Fantastica",
+      "PinkMan", "Popper", "Rataime", "Savordez", "SoundSpawn",
+      "the__end", "Venom12", "Wachunga"
+    ], false)
+    ret.push(_INTL("and everyone else who helped out"))
+    ret.push("")
+    ret.push(_INTL("\"mkxp-z\" by:"))
+    add_names_to_credits(ret, [
+      "Roza",
+      _INTL("Based on \"mkxp\" by Ancurio et al.")
+    ])
+    ret.push(_INTL("\"RPG Maker XP\" by:"))
+    add_names_to_credits(ret, ["Enterbrain"])
+    ret.push(_INTL("PokÃ©mon is owned by:"))
+    add_names_to_credits(ret, [
+      "The PokÃ©mon Company",
+      "Nintendo",
+      _INTL("Affiliated with Game Freak")
+    ])
+    ret.push("", "")
+    ret.push(_INTL("This is a non-profit fan-made game."),
+             _INTL("No copyright infringements intended."),
+             _INTL("Please support the official games!"))

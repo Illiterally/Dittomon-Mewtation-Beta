@@ -1,0 +1,13 @@
+Pinned engine/resource references for this Dittomon2.0 playtest:
+
+engine: https://github.com/Shiny-Miner/CFRU-expansion.git
+Base revision: d1c9ee05c8183171faba69af07f708972f9a2d14
+
+species: https://github.com/grilokapu/Dynamic-Pokemon-Expansion-Gen-9.git
+Base revision: 9048c7b70ab6623ecb46a636e44759409186e9a8
+
+maps: https://github.com/pret/pokefirered.git
+Base revision: e060ab955b5dc9ac1c4904c2cd141683615cf477
+
+Dittomon source changes are maintained by Illy alongside this patch.
+This player package contains no proprietary ROMs, donor ROMs, or player saves.
