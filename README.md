@@ -1,12 +1,12 @@
-# Dittomon2.0
+# Dittomon2.0.1
 
 **One Pokémon. Every Pokémon is a possibility.**
 
-What if Ditto ditto'd harder..? Dittomon2.0 brings the solo-mon Kanto challenge to an expanded FireRed foundation. Scout opponents, keep useful forms, copy moves, and reshape your abilities and stats through the Pokémon Utility Menu: **PUM**. Your next encounter might be the answer to the fight that stopped you.
+What if Ditto ditto'd harder..? Dittomon2.0.1 brings the solo-mon Kanto challenge to an expanded FireRed foundation. Scout opponents, keep useful forms, copy moves, and reshape your abilities and stats through the Pokémon Utility Menu: **PUM**. Your next encounter might be the answer to the fight that stopped you.
 
-## Play Dittomon2.0
+## Play Dittomon2.0.1
 
-**[Download Dittomon2.0 v2.0.1 — Rock Tunnel Hotfix](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0.1-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
+**[Download Dittomon2.0.1 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0.1-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
 
 Updated October 9, 2026 (v2.0.1). The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
 
