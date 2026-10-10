@@ -1,15 +1,15 @@
-DITTOMON2.0 - PUBLIC BETA / OCTOBER 9, 2026
+DITTOMON2.0 v2.0.1 - ROCK TUNNEL HOTFIX / OCTOBER 9, 2026
 Created and directed by Illy / Illiterally
 
 PATCHING
 1. Extract this ZIP.
 2. Open a BPS-compatible patcher, such as Floating IPS (Flips):
    https://github.com/Alcaro/Flips/releases
-3. Choose Apply Patch, select Dittomon2.0.bps, then select your own clean
-   Pokemon FireRed USA version 1.0 ROM. Save the result as Dittomon2.0.gba.
+3. Choose Apply Patch, select Dittomon2.0.1.bps, then select your own clean
+   Pokemon FireRed USA version 1.0 ROM. Save the result as Dittomon2.0.1.gba.
    Do not apply this patch over an older Dittomon ROM, FireRed 1.1, or a
    different ROM hack. The patcher checks that the base matches.
-4. Open Dittomon2.0.gba in mGBA and start a New Game.
+4. Open Dittomon2.0.1.gba in mGBA and start a New Game.
 
 No ROM, emulator, or player save is included. PATCH_INFO.json identifies
 the exact base, patch, and resulting ROM by hash. SHA256SUMS.txt checks
@@ -19,7 +19,7 @@ SAVES
 Coming from the original Dittomon beta: start fresh. Its saves are incompatible.
 Already testing the expanded rebuild: ordinary battery saves are compatible
 with this release. Close the emulator and BACK UP your existing .sav first.
-Copy it beside Dittomon2.0.gba as Dittomon2.0.sav. Do not overwrite the original
+Copy it beside Dittomon2.0.1.gba as Dittomon2.0.1.sav. Do not overwrite the original
 or an existing save without checking which progress you want to keep.
 Restart the ROM and choose Continue; do not restore an older emulator state.
 

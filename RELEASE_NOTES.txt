@@ -18,7 +18,7 @@ The solo-mon Kanto challenge now runs on an expanded FireRed foundation, with mo
 
 ### Download and start
 
-Get **Dittomon2.0-2026-10-06.zip** below. It contains the patch, instructions, credits, and checksums. Apply `Dittomon2.0.bps` to your own clean **Pokémon FireRed USA 1.0** ROM using a BPS patcher. No ROM is included.
+Get **Dittomon2.0.1-2026-10-09.zip** below. It contains the patch, instructions, credits, and checksums. Apply `Dittomon2.0.1.bps` to your own clean **Pokémon FireRed USA 1.0** ROM using a BPS patcher. No ROM is included.
 
 **September-beta players need a new save.** Keep your old ROM/save together; [that release remains available](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1-hotfix-1). Current expanded-rebuild battery saves are compatible; back them up and use Continue rather than an older emulator save state.
 

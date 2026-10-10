@@ -6,7 +6,7 @@ What if Ditto ditto'd harder..? Dittomon2.0 brings the solo-mon Kanto challenge 
 
 ## Play Dittomon2.0
 
-**[Download Dittomon2.0 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
+**[Download Dittomon2.0 v2.0.1 — Rock Tunnel Hotfix](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0.1-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
 
 Updated October 9, 2026 (v2.0.1). The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
 
@@ -28,10 +28,10 @@ Win with Dittomon. Scout forms, revisit areas, talk to people, and try strange i
 
 ## How to patch
 
-1. Extract `Dittomon2.0-2026-10-09.zip`.
+1. Extract `Dittomon2.0.1-2026-10-09.zip`.
 2. Open a BPS-compatible patcher, such as [Floating IPS / Flips](https://github.com/Alcaro/Flips/releases).
-3. Apply `Dittomon2.0.bps` to a **clean FireRed USA 1.0** ROM. Do not patch an older Dittomon ROM, FireRed 1.1, or another hack.
-4. Save the result as `Dittomon2.0.gba`, open it in mGBA, and start a new game.
+3. Apply `Dittomon2.0.1.bps` to a **clean FireRed USA 1.0** ROM. Do not patch an older Dittomon ROM, FireRed 1.1, or another hack.
+4. Save the result as `Dittomon2.0.1.gba`, open it in mGBA, and start a new game.
 
 Required base SHA-1: `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`.
 Full base, patch, and output hashes are in `PATCH_INFO.json` inside the ZIP.

@@ -3,7 +3,7 @@
     "name": "Dittomon2.0",
     "version": "2.0.1",
     "channel": "public-beta",
-    "artifact_stem": "Dittomon2.0",
+    "artifact_stem": "Dittomon2.0.1",
     "tag": "v2.0.1",
     "url": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1"
   },
@@ -16,12 +16,12 @@
     "crc32": "DD88761C"
   },
   "patch": {
-    "file": "Dittomon2.0.bps",
+    "file": "Dittomon2.0.1.bps",
     "bytes": 14073792,
     "sha256": "e93e22c95dbde94f5d651b0097cac2ee236cd97b5e87a29fa2d51dd7220d2089"
   },
   "result": {
-    "file": "Dittomon2.0.gba",
+    "file": "Dittomon2.0.1.gba",
     "bytes": 33554432,
     "sha256": "93cba8fb7ee51bf09be6d1252727488a046fed6e46b1c6637e8309f7129fd78a"
   },
