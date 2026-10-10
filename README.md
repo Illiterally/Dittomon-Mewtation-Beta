@@ -6,9 +6,11 @@ What if Ditto ditto'd harder..? Dittomon2.0 brings the solo-mon Kanto challenge 
 
 ## Play Dittomon2.0
 
-**[Download Dittomon2.0 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.0/Dittomon2.0-2026-10-06.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.0)
+**[Download Dittomon2.0 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
 
-Released October 6, 2026. The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
+Updated October 9, 2026 (v2.0.1). The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
+
+**October 9 hotfix:** Fixed a progression-blocking freeze when starting the first trainer battle in Rock Tunnel. Also repaired six related data errors caused by the same patching bug. Existing Dittomon2.0 in-game saves remain compatible.
 
 **Coming from the September beta? Start a new game.** Dittomon2.0 uses a different save format. Keep your old game and save together; the [September beta and its save-compatible warp hotfix](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1-hotfix-1) remain available.
 
@@ -26,7 +28,7 @@ Win with Dittomon. Scout forms, revisit areas, talk to people, and try strange i
 
 ## How to patch
 
-1. Extract `Dittomon2.0-2026-10-06.zip`.
+1. Extract `Dittomon2.0-2026-10-09.zip`.
 2. Open a BPS-compatible patcher, such as [Floating IPS / Flips](https://github.com/Alcaro/Flips/releases).
 3. Apply `Dittomon2.0.bps` to a **clean FireRed USA 1.0** ROM. Do not patch an older Dittomon ROM, FireRed 1.1, or another hack.
 4. Save the result as `Dittomon2.0.gba`, open it in mGBA, and start a new game.

@@ -1,3 +1,7 @@
+### October 9 hotfix (v2.0.1)
+
+Fixed a progression-blocking freeze when starting the first trainer battle in Rock Tunnel. Also repaired six related data errors caused by the same patching bug. Existing Dittomon2.0 in-game saves remain compatible.
+
 **Dittomon2.0 is here. One Pokémon. A lot more possibilities.**
 
 The solo-mon Kanto challenge now runs on an expanded FireRed foundation, with more forms to discover and more ways to make your Dittomon your own.

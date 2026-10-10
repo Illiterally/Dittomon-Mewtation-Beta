@@ -1,4 +1,4 @@
-DITTOMON2.0 - PUBLIC BETA / OCTOBER 6, 2026
+DITTOMON2.0 - PUBLIC BETA / OCTOBER 9, 2026
 Created and directed by Illy / Illiterally
 
 PATCHING
