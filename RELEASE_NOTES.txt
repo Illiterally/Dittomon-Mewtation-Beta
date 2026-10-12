@@ -1,3 +1,7 @@
+### October 11 bugfix update (v2.0.2)
+
+Fixed blocked stairs and cave entrances, and invisible move names in the Oak Lab Relearner. Includes the previous Rock Tunnel fix. Existing Dittomon2.0 in-game saves remain compatible.
+
 ### October 9 hotfix (v2.0.1)
 
 Fixed a progression-blocking freeze when starting the first trainer battle in Rock Tunnel. Also repaired six related data errors caused by the same patching bug. Existing Dittomon2.0 in-game saves remain compatible.

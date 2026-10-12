@@ -1,14 +1,14 @@
 {
   "release": {
-    "name": "Dittomon2.0",
-    "version": "2.0.1",
+    "name": "Dittomon2.0.2",
+    "version": "2.0.2",
     "channel": "public-beta",
-    "artifact_stem": "Dittomon2.0.1",
-    "tag": "v2.0.1",
-    "url": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1"
+    "artifact_stem": "Dittomon2.0.2",
+    "tag": "v2.0.2",
+    "url": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.2"
   },
-  "delivery": "2026-10-09",
-  "built_at": "2026-10-10T00:05:42.440874+00:00",
+  "delivery": "2026-10-11",
+  "built_at": "2026-10-12T00:02:05.955552+00:00",
   "base": {
     "game": "Pokemon FireRed USA 1.0",
     "sha256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
@@ -16,14 +16,14 @@
     "crc32": "DD88761C"
   },
   "patch": {
-    "file": "Dittomon2.0.1.bps",
-    "bytes": 14073792,
-    "sha256": "e93e22c95dbde94f5d651b0097cac2ee236cd97b5e87a29fa2d51dd7220d2089"
+    "file": "Dittomon2.0.2.bps",
+    "bytes": 14073879,
+    "sha256": "73a201d22fa47096bd704b443dd01d6da4f9095dbd80d94c9dd7879ff51bff72"
   },
   "result": {
-    "file": "Dittomon2.0.1.gba",
+    "file": "Dittomon2.0.2.gba",
     "bytes": 33554432,
-    "sha256": "93cba8fb7ee51bf09be6d1252727488a046fed6e46b1c6637e8309f7129fd78a"
+    "sha256": "7cc068ffc8fd72d0b4bca1058f7a92f7b74c11e2fb5e3793605d1e3a05897edc"
   },
   "verification": {
     "build_gates_passed": true,

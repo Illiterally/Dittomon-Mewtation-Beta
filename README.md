@@ -1,16 +1,16 @@
-# Dittomon2.0.1
+# Dittomon2.0.2
 
 **One Pokémon. Every Pokémon is a possibility.**
 
-What if Ditto ditto'd harder..? Dittomon2.0.1 brings the solo-mon Kanto challenge to an expanded FireRed foundation. Scout opponents, keep useful forms, copy moves, and reshape your abilities and stats through the Pokémon Utility Menu: **PUM**. Your next encounter might be the answer to the fight that stopped you.
+What if Ditto ditto'd harder..? Dittomon2.0.2 brings the solo-mon Kanto challenge to an expanded FireRed foundation. Scout opponents, keep useful forms, copy moves, and reshape your abilities and stats through the Pokémon Utility Menu: **PUM**. Your next encounter might be the answer to the fight that stopped you.
 
-## Play Dittomon2.0.1
+## Play Dittomon2.0.2
 
-**[Download Dittomon2.0.1 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.1/Dittomon2.0.1-2026-10-09.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.1)
+**[Download Dittomon2.0.2 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.2/Dittomon2.0.2-2026-10-11.zip)** · [Release notes](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/v2.0.2)
 
-Updated October 9, 2026 (v2.0.1). The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
+Updated October 11, 2026 (v2.0.2). The ZIP includes the BPS patch, setup instructions, credits, and checksums. Bring your own clean **Pokémon FireRed USA 1.0** ROM; no ROM is included.
 
-**October 9 hotfix:** Fixed a progression-blocking freeze when starting the first trainer battle in Rock Tunnel. Also repaired six related data errors caused by the same patching bug. Existing Dittomon2.0 in-game saves remain compatible.
+**October 11 bugfix update:** Fixed blocked stairs and cave entrances, and invisible move names in the Oak Lab Relearner. Includes the previous Rock Tunnel fix. Existing Dittomon2.0 in-game saves remain compatible.
 
 **Coming from the September beta? Start a new game.** Dittomon2.0 uses a different save format. Keep your old game and save together; the [September beta and its save-compatible warp hotfix](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/tag/public-beta-1-hotfix-1) remain available.
 
@@ -28,10 +28,10 @@ Win with Dittomon. Scout forms, revisit areas, talk to people, and try strange i
 
 ## How to patch
 
-1. Extract `Dittomon2.0.1-2026-10-09.zip`.
+1. Extract `Dittomon2.0.2-2026-10-11.zip`.
 2. Open a BPS-compatible patcher, such as [Floating IPS / Flips](https://github.com/Alcaro/Flips/releases).
-3. Apply `Dittomon2.0.1.bps` to a **clean FireRed USA 1.0** ROM. Do not patch an older Dittomon ROM, FireRed 1.1, or another hack.
-4. Save the result as `Dittomon2.0.1.gba`, open it in mGBA, and start a new game.
+3. Apply `Dittomon2.0.2.bps` to a **clean FireRed USA 1.0** ROM. Do not patch an older Dittomon ROM, FireRed 1.1, or another hack.
+4. Save the result as `Dittomon2.0.2.gba` and open it in mGBA. New players: choose New Game. Returning Dittomon2.0 players: back up your `.sav`, copy it beside the ROM as `Dittomon2.0.2.sav`, then choose Continue.
 
 Required base SHA-1: `41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc`.
 Full base, patch, and output hashes are in `PATCH_INFO.json` inside the ZIP.
