@@ -1,0 +1,21 @@
+name: Check player downloads
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  download-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check player-facing release identity and repository layout
+        run: python .github/scripts/check_downloads.py
+      - name: Verify published downloads and website
+        if: github.event_name != 'pull_request'
+        run: python .github/scripts/check_downloads.py --live

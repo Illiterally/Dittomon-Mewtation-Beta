@@ -52,16 +52,16 @@ These are inherited project credits, not a guarantee that every listed optional 
 
 ## Species, forms and sprites
 
-The RR/Essentials selection is documented in [ART_SOURCES.md](ART_SOURCES.md).
+The RR/Essentials selection is documented in [ART_SOURCES.md](docs/ART_SOURCES.md).
 Exact RR 4.1 artist attributions and primary links are retained in
-[SPRITE_RADRED_RESEARCH.md](SPRITE_RADRED_RESEARCH.md), including the credited
+[SPRITE_RADRED_RESEARCH.md](docs/SPRITE_RADRED_RESEARCH.md), including the credited
 DS-style repository contributors and RR-specific art and shiny edits. The
 owner's local donor ROM is identified by hash; it is not a source for importing
 RR gameplay data. The official Pokédex source is an independent form-identity
 reference. Local Essentials/Gen 9 contributor notices and source-file hashes are
 recorded in `reports/essentials-source-audit.json`.
 
-The mixed art policy and alternative sources are recorded in [ART_SOURCES.md](ART_SOURCES.md) and [SPRITE_OPTIONS.md](SPRITE_OPTIONS.md). The 386 original Pokémon and 27 Unown variants use their preserved beta / original FireRed battle artwork. The restoration reuses the original game's assets and does not create new artist credits. Later forms use the reviewed RR/Essentials layers or their retained DPE fallback. Researching an external resource does not mean its assets were imported.
+The mixed art policy and alternative sources are recorded in [ART_SOURCES.md](docs/ART_SOURCES.md) and [SPRITE_OPTIONS.md](docs/SPRITE_OPTIONS.md). The 386 original Pokémon and 27 Unown variants use their preserved beta / original FireRed battle artwork. The restoration reuses the original game's assets and does not create new artist credits. Later forms use the reviewed RR/Essentials layers or their retained DPE fallback. Researching an external resource does not mean its assets were imported.
 
 **Dynamic Pokémon Expansion:** Skeli's original project and subsequent Gen 9 work. The [pinned Gen 9 fork](https://github.com/grilokapu/Dynamic-Pokemon-Expansion-Gen-9/tree/9048c7b70ab6623ecb46a636e44759409186e9a8) names Zake, Axel Loquendo and The Code Mining Hub; grilokapu maintains the selected update fork.
 
