@@ -1,12 +1,12 @@
 # Dittomon2.0.2
 
-## [Download Dittomon2.0.2 — Public Beta](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.2/Dittomon2.0.2-2026-10-11.zip)
+## [▶ PLAY HERE — Download Dittomon2.0.2](https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.2/Dittomon2.0.2-2026-10-11.zip)
 
-**Current release: 2.0.2 · October 11, 2026**
+**2.0.2 · Public Beta · October 11, 2026**
 
-The file you want is **`Dittomon2.0.2-2026-10-11.zip`**. It includes the patch, instructions, and credits.
+**Click PLAY HERE above to start the download.** You'll get `Dittomon2.0.2-2026-10-11.zip`, containing the patch, instructions, and credits.
 
-Use the download above. GitHub's green **Code → Download ZIP** button downloads repository files, not the game patch.
+The `PLAY-HERE_Dittomon2.0.2.zip` file in the list above is the same download. If you open that file, click the **Download raw file** arrow. The PLAY HERE link skips that extra step.
 
 **One Pokémon. Every Pokémon is a possibility.**
 

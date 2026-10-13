@@ -29,19 +29,23 @@ def fetch(url):
 
 
 def check_copy(text, release):
-    expected = {release['archive'], release['patch'], 'Dittomon' + release['version'] + '.gba'}
-    found = set(re.findall(r'Dittomon[A-Za-z0-9_.-]+\.(?:zip|bps|gba)', text))
+    expected = {release['archive'], release['patch'], release['root_download'], 'Dittomon' + release['version'] + '.gba'}
+    found = set(re.findall(r'(?:PLAY-HERE_)?Dittomon[A-Za-z0-9_.-]+\.(?:zip|bps|gba)', text))
     require(found <= expected, 'Stale download filename(s): ' + ', '.join(sorted(found - expected)))
 
 
 def check_repository(root, release):
-    allowed = {'.git', '.github', 'assets', 'credits', 'docs', 'README.md', 'CREDITS.md'}
-    require({p.name for p in root.iterdir()} <= allowed, 'Unexpected root files: keep downloads in Releases and documentation in docs/')
+    allowed = {'.git', '.github', 'assets', 'credits', 'docs', 'README.md', 'CREDITS.md', release['root_download']}
+    require({p.name for p in root.iterdir()} <= allowed, 'Unexpected root files: retain only the current PLAY-HERE ZIP and supporting documents')
+    download = root / release['root_download']
+    require(download.is_file(), 'The current PLAY-HERE ZIP must be visible in the root file list')
+    require(sha(download.read_bytes()) == release['assets'][release['archive']]['sha256'], 'Root PLAY-HERE ZIP differs from the current release download')
     for folder in ['assets', 'credits', 'docs']:
         require(not any(p.suffix.lower() in {'.bps', '.zip', '.gba', '.sav'} for p in (root / folder).rglob('*')), 'Download or private game file committed outside Releases')
     readme = (root / 'README.md').read_text(encoding='utf-8')
     require(readme.startswith('# Dittomon' + release['version'] + '\n'), 'README title differs from release')
-    require('Public Beta' in readme.splitlines()[2], 'Prominent Public Beta label is missing')
+    require('Public Beta' in '\n'.join(readme.splitlines()[:7]), 'Prominent Public Beta label is missing')
+    require('PLAY HERE' in readme.splitlines()[2], 'Prominent PLAY HERE download link is missing')
     links = re.findall(r'\]\(([^)]+)\)', readme)
     require(links[0] == release['download'], 'First README link must download the current ZIP')
     require(release['download'] == PUBLIC + '/releases/download/' + release['tag'] + '/' + release['archive'], 'Download URL disagrees with release identity')
@@ -83,6 +87,8 @@ def main():
     if args.package:
         check_package(args.package.read_bytes(), release)
     if args.live:
+        root_data = fetch('https://raw.githubusercontent.com/Illiterally/Dittomon-Mewtation-Beta/main/' + release['root_download'])
+        require(sha(root_data) == release['assets'][release['archive']]['sha256'], 'Public PLAY-HERE file differs from the current ZIP')
         current = json.loads(fetch(API + '/releases/latest'))
         require(current['tag_name'] == release['tag'] and not current['draft'], 'Latest GitHub release is wrong')
         require(release['download'] in current['body'], 'Release page lacks a direct ZIP download')

@@ -1,11 +1,11 @@
 # Keep one clear player download
 
-Game downloads belong in GitHub Releases. Keep the repository root limited to the README, credits, and supporting folders. Never add a second `PLAY-HERE`, upgrade ZIP, or loose patch to the file listing.
+Keep exactly one current `PLAY-HERE` ZIP visible in the repository root. It must be byte-identical to the current GitHub Release ZIP, and the automated check requires that match. A new visitor should see where to play without scrolling past a file listing or understanding GitHub. The README and website PLAY HERE buttons must start the download directly. Never add an older `PLAY-HERE`, upgrade ZIP, or loose patch beside the current download.
 
 For each release:
 
 1. Prepare and test the game patch. Preserve the existing release and its saves.
-2. Update `.github/current-release.json` with the reviewed version, exact filenames, download URL, and hashes. Update the README's title, first download link, filename, and setup instructions together. Keep **Public Beta** prominent.
+2. Update `.github/current-release.json` with the reviewed version, exact filenames, root download filename, download URL, and hashes. Replace the root PLAY-HERE ZIP with the new release's identical bytes and remove the previous root ZIP. Update the README's title, first download link, filename, and setup instructions together. Keep **Public Beta** prominent.
 3. Check the actual ZIP: `python .github/scripts/check_downloads.py --package /path/to/package.zip`. This checks filenames inside instructions, packaged metadata, patch identity, and every included file's checksum.
 4. Publish the release with a prominent direct ZIP link. Mark previous releases archived and point their notices at `/releases/latest`; preserve their tags and assets. Do not mark the whole repository archived.
 5. Update the website's title, status, download URL, and expected filename together. Preserve the owner's saved copy. Keep the repository description version-neutral.
