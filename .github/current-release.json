@@ -1,23 +1,23 @@
 {
-  "version": "2.0.2",
-  "tag": "v2.0.2",
-  "download": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.2/Dittomon2.0.2-2026-10-11.zip",
-  "archive": "Dittomon2.0.2-2026-10-11.zip",
-  "root_download": "PLAY-HERE_Dittomon2.0.2.zip",
-  "patch": "Dittomon2.0.2.bps",
+  "version": "2.0.3",
+  "tag": "v2.0.3",
+  "download": "https://github.com/Illiterally/Dittomon-Mewtation-Beta/releases/download/v2.0.3/Dittomon2.0.3-2026-10-20.zip",
+  "archive": "Dittomon2.0.3-2026-10-20.zip",
+  "root_download": "PLAY-HERE_Dittomon2.0.3.zip",
+  "patch": "Dittomon2.0.3.bps",
   "assets": {
-    "Dittomon2.0.2-2026-10-11.zip": {
-      "bytes": 12811664,
-      "sha256": "11119f1c5c93d8cd9a7723b60b1fe180d660cee7f6384b4550bed1af6a42f24a"
+    "Dittomon2.0.3-2026-10-20.zip": {
+      "bytes": 12809700,
+      "sha256": "5a1bcdd0e6d13f98c8f6fe71d7bffc5e17ed05ed956876781b6b419495b5baa0"
     },
-    "Dittomon2.0.2.bps": {
-      "bytes": 14074161,
-      "sha256": "2dd7724787eff4451854196596f37fca4c07c142d506d0ecbe779ab28e339262"
+    "Dittomon2.0.3.bps": {
+      "bytes": 14074059,
+      "sha256": "4e9c0242cbe652b03c8c3cd8aa7d70d120671412c0f741ffb05c2b798b588ac0"
     },
     "SHA256SUMS.txt": {
       "bytes": 181,
-      "sha256": "d6793b333c9de9d1d12e09c8f9c7e91bb19997dc1315a492ebb94ecfd66a0345"
+      "sha256": "aa4105be2fbc7dcca0de351380ecc80480588ee2b3cb87a8ebab339648fac470"
     }
   },
-  "rom_sha256": "d5d64b73bd6d625df88bdcf3ea61fa7b58cf1e8ce90f5921df4f7220941ad46a"
+  "rom_sha256": "d0083cc9e7e80c7e8c794a20c6b7097d8cb81ee7c1ab33b578d1c73e31c544f0"
 }
